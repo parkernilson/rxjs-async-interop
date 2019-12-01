@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-async-interop",
+  "name": "@parkernilson/rxjs-async-interop",
   "version": "1.0.0",
   "description": "Utility functions for working with rxjs Observables in async functions.",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   "author": "parkernilson",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "^6.5.3"
+    "rxjs": "~6.4.0"
   },
   "devDependencies": {
     "typescript": "^3.7.2"
