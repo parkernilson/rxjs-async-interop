@@ -9,4 +9,4 @@ import { Observable } from 'rxjs';
  * @template Type the type of the observable.
  * @param obs the observable to create a promise from.
  */
-export declare function firstValPromise<Type>(obs: Observable<Type>): Promise<unknown>;
+export declare function firstValPromise<Type>(obs: Observable<Type>): Promise<Type>;
