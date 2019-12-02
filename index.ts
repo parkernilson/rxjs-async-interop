@@ -15,10 +15,10 @@ import { Observable } from 'rxjs';
  */
 export function firstValPromise<Type>(obs: Observable<Type>): Promise<Type> {
     return new Promise<Type>((resolve, reject) => {
-        obs.subscribe(val => {
+        obs.subscribe((val: Type) => {
             resolve(val)
         },
-        error => {
+        (error: any) => {
             reject(error)
         })
     })
