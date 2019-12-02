@@ -10,7 +10,7 @@
   },
   "author": "parkernilson",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "rxjs": "^6.0.0"
   },
   "devDependencies": {
