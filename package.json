@@ -1,6 +1,6 @@
 {
   "name": "@parkernilson/rxjs-async-interop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/parkernilson/rxjs-async-interop",
   "description": "Utility functions for working with rxjs Observables in async functions.",
   "main": "dist/index.js",
