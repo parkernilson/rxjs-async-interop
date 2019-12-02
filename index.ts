@@ -2,8 +2,6 @@
  * This package contains modules which help in using rxjs observables with async functions.
  */
 
- //TODO: figure out how peer dependencies work to make sure this package will work with projects that don't have exactly the same version of rxjs
-
 import { Observable } from 'rxjs';
 
 /**
